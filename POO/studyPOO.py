@@ -8,11 +8,14 @@ class bicicleta:
 
     def buzinar(self):
         print("Plim Plim...")
+
     def parar(self):
         print("Parando a bicicleta")
         print("Frenagem com sucesso - Bicicleta parada")
+
     def correr(self):
         print("Vrummmmm")
+
     def __str__(self):
         return f"{self.__class__.__name__}: {', '.join([f'{chave}={valor}' for chave, valor in self.__dict__.items()])}"
 
